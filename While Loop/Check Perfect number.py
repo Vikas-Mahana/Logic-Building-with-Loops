@@ -7,7 +7,7 @@ original_number = number
 divisor_sum = 0
 
 # Use a while loop to calculate the sum of proper divisors
-divisor = 1  # Start with the first proper divisor
+divisor = 1
 while divisor < original_number:
     if original_number % divisor == 0:  # Check if it is a proper divisor
         divisor_sum += divisor  # Add the divisor to the sum
