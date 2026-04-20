@@ -1,6 +1,5 @@
 """ Calculate the sum of all even numbers from 1 up to n. """
 
-
 num = int(input("Enter a positive number: "))
 # Initialize the variable
 n = 1
@@ -11,7 +10,6 @@ while n <= num:
         print(n)
         sum += n
     n +=1 #incremented by 1
-
 print(sum)
 
 

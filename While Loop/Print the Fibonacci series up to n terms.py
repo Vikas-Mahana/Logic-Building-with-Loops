@@ -1,6 +1,5 @@
-""" Print the Fibonacci series up to n terms"""
+""" Print the Fibonacci series up to n terms """
 
-# Function to generate Fibonacci series up to n terms
 def fibonacci(n):
     a, b = 0, 1
     count = 0
